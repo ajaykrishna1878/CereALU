@@ -1,5 +1,5 @@
 #include "CereALU.h"
-#include <stdio>
+#include <stdio.h>
 
 int main(){
   printf("Add(4, 2) = %d\n", Add(4, 2));
