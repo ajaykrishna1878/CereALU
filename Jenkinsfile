@@ -6,5 +6,10 @@ pipeline {
         sh 'pwd'
       }
     }
+    stage('LS') {
+      steps{
+        sh 'ls'
+      }
+    }
   }
 }
