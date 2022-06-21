@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Run Makefile') {
       steps {
-        make
+        sh 'make'
       }
     }
   }
