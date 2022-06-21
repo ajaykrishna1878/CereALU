@@ -6,6 +6,4 @@ int main(){
     printf("Subtract(4, 2): %d\n", Subtract(4, 2));
     printf("Multiply(4, 2) %d\n", Multiply(4, 2));
     printf("Divide(4, 2): %d\n", Divide(4, 2));
-    printf("Hello World");
-
 }
