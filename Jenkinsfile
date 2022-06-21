@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Run Makefile') {
+    stage('Get PWD') {
       steps {
-        sh 'make'
+        sh 'pwd'
       }
     }
   }
