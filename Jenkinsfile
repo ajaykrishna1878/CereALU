@@ -6,9 +6,9 @@ pipeline {
         sh 'pwd'
       }
     }
-    stage('LS') {
-      steps{
-        sh 'ls'
+    stage('Run Makefile') {
+      steps {
+        sh 'make'
       }
     }
   }
